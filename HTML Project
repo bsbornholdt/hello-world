@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+<title>The Truth</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	</head>
+<body>
+	<p> Brandon is a master coder, HTML is very easy for him.<br/>
+	<p> There is nothing that can out-wit him, not even breaks in text.<br/>
+	<p> He is truly a gifted coder and will surely prosper.<br/>
+	<p> He also writes clear and manageable code, using tabs. NOT spaces.</p> 
+
+<marquee>Mans not hot!</marquee>
+
+<h2>HTML Image</h2>
+<img src="favicon.ico" alt="Trulli" title="A little Gary boy" width="500" height="333">
+
+
+</body>
+</html>
+
 
