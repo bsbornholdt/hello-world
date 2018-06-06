@@ -1,3 +1,2 @@
-# hello-world
-Projects 
-I'm trying to learn how to get a job in web developement. 
+Welcome!
+hello-world will be a portfolio of my projects in aims to display proficiencies in programming.  
