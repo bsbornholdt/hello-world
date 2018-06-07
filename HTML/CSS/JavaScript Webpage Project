@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>	
-<title>The Truth</title>
-
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<title>GaryLand</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="./Favicons/favicon.ico" type="image/x-icon">
 	</head>
-<body>
-<style>body
-{
-	background-color: #FFCCE6;	
-}
-</style>
-	<p> 	<div style="color: green;">	Suddenly, everything is out of control - everyone is spiraling in one direction!.<br/> </div>
-	What's going on here! We just want to understand!.<br/>
-		<div style="color: green;">This is a land unlike we have ever seen before....<br/> </div>
-	It's the land.. it's the land of GARY!</p> 
-	
-	<marquee>Mans not hot!</marquee>
+	<body>
+		<style>
+			body{
+				background-color: #FFCCE6;	
+				margin: 0px;
+			}
+			.indent{
+				padding:9px;
+			}
+			p{
+				margin:0px;
+			}
+		</style>
+		<div class="indent"> 	
+			<div style="color: green;">
+				<p>Suddenly, everything is out of control!</p>
+				<br/>
+			</div>
+			<p>What's going on here! We just want to understand!</p>
+			<br/>
+			<div style="color: green;">
+				<p>This is a land unlike we have ever seen before...</p>
+				<br/>
+			</div>
+			<p>It's the land.. it's the land of GARY!</p>
 
-	<img src="https://ih1.redbubble.net/image.466910825.6112/raf,750x1000,075,t,9ec0d5:0d26d5c715.u5.jpg" alt = "gary"/> 
-	
-	
+			<marquee>Man's not hot!</marquee>
 
+			<button onclick="garyadder2()">Click Me!</button>
 
-</body>
+			<div class="garypix">
+			</div>
+		</div> 
+
+		<img src="https://ih1.redbubble.net/image.466910825.6112/raf,750x1000,075,t,9ec0d5:0d26d5c715.u5.jpg" alt = "gary"/> 
+	</body>
+	<script type="text/javascript">
+		function garyadder() {
+			console.log("garyadder is running");
+			$('.garypix').append("<img src=\"https://ih1.redbubble.net/image.466910825.6112/raf,750x1000,075,t,9ec0d5:0d26d5c715.u5.jpg\" alt = \"gary\"/> ");
+		}
+
+		function garyadder2() {
+
+			window.setInterval(garyadder, 1000);
+		}
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>
+
